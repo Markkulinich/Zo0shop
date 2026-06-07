@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Зоомагазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Зоомагазин</h1>
+    <h2>Все для ваших улюбленців</h2>
+</header>
+
+<nav>
+    <a href="index.html">Головна</a>
+    <a href="product.html">Товари</a>
+    <a href="aboutus.html">Про нас</a>
+    <a href="contacts.html">Контакти</a>
+</nav>
+
+<main>
+
+    <div class="contacts-wrapper">
+        <!-- Контактна інформація -->
+        <div class="contact-info">
+            <h2>📞 Наші контакти</h2>
+            
+            <div class="contact-details">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <h3>Адреса</h3>
+                        <p>м. Київ, вул. Хрещатик, 15</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <div>
+                        <h3>Телефон</h3>
+                        <p>+380 (00) 000 00 00</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>info@zoomagazin.ua</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">⏰</span>
+                    <div>
+                        <h3>Графік роботи</h3>
+                        <p>Пн-Пт: 09:00 - 20:00</p>
+                        <p>Сб-Нд: 10:00 - 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Форма замовлення -->
+        <div class="order-form">
+            <h2>🛒 Оформити замовлення</h2>
+            
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Ваше ім'я</label>
+                    <input type="text" id="name" name="name" placeholder="Іван Петренко">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ivan@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+380 XX XXX XXXX">
+                </div>
+                
+                <div class="form-group">
+                    <label for="comment">Коментар</label>
+                    <textarea id="comment" name="comment" rows="4" placeholder="Напишіть, які товари ви обрали"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">📦 Відправити замовлення</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Карта -->
+    <div class="map-section">
+        <h2>🗺️ Ми на карті</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.794498720062!2d30.523292!3d50.450001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6c1d1b8d5d%3A0x5b8c9e1f8e1f2e3f!2z0KXRgNC10YnQsNGC0LjQuiwgMTUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1700000000000!5m2!1suk!2sua" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="back-btn-container">
+        <a href="index.html" class="backbtn">← На головну</a>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 Зоомагазин | Всі права захищені</p>
+    <p>Телефон: +380 00 000 00 00</p>
+</footer>
+
+</body>
+</html>
